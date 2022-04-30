@@ -357,3 +357,168 @@ padding: 0px 0;
  font-size: 20pt;
  padding: 10px 0;
 }
+.manager_section
+{
+	height: 500px;
+}
+.manager_section>.text
+{
+	text-align: center;
+	padding: 50px 0;
+}
+.manager_section>.text>.title
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+.comentaries
+{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	margin: 40px 0 0 0;
+}
+
+.comentaries>.coment>.text
+{
+	background-image: url('../Images/u229.png');
+	background-size: cover;
+	margin: 0 40px;
+}
+.comentaries>.coment>.pers
+{
+	display: flex;
+}
+.comentaries>.coment>.pers>img
+{
+  width: 100px;
+  height: 100px;
+}
+.comentaries>.coment>.pers>.name>.FirstName
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+.comentaries>.coment>.pers>.name>.rank
+{
+	font-size: 16px;
+	color:lightgrey;
+}
+.comentaries>.coment>.pers
+{
+  justify-content: flex-start;
+  padding: 20px 40px;
+}
+.comentaries>.coment>.pers>.name
+{
+	padding: 10px 40px;
+}
+.styles_disain_section
+{
+	height: 320px;
+	background-color:#9a9a9a;
+}
+.styles_disain_section>.text
+{
+	text-align: center;
+	color: white;
+	padding: 50px 0 0 0;
+}
+.styles_disain_section>.text>a
+{
+ display: block;
+ text-decoration: none;
+ margin: 40px auto;
+ padding: 10px 30px;
+ color: white;
+ border:solid 2px white;
+ width: 150px;
+ transition:0.5s;
+}
+.styles_disain_section>.text>a:hover
+{
+	border-color: lime;
+	width: 170px;
+}
+
+.styles_disain_section>.text>.title
+{
+	font-size: 30px;
+}
+.section_contact_us>.text
+{
+    text-align: center;
+	padding: 50px 0;
+}
+.section_contact_us>.text>.title
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+.section_contact_us>.forms_inputs
+{
+	display: flex;
+}
+.section_contact_us>.forms_inputs>.contact_inputs
+{
+	width: 50%;
+	padding: 0px 0 0 100px;
+}
+.section_contact_us>.forms_inputs>.contact_inputs>input
+{
+	width: 500px;
+	height: 40px;
+	border:0;
+	border-bottom: 2px solid lightgrey;
+	outline: none;
+	margin:20px 0 10px 0;
+	display: block;
+
+}
+.section_contact_us>.forms_inputs>.message_input
+{
+	width: 50%;
+}
+.section_contact_us>.forms_inputs>.message_input>input
+{
+	width: 500px;
+	height: 160px;
+	border:0;
+	border: 2px solid lightgrey;
+	outline: none;
+	margin:20px 0 10px 0;
+	display: block;
+
+}
+.section_contact_us>a
+{
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	margin: 50px auto;
+	padding: 5px 0;
+	background-color: orange;
+	border:solid 2px transparent;
+	border-radius: 5px;
+	color: white;
+	transition: 0.3s;
+	text-align: center;
+}
+.section_contact_us>a:hover
+{
+	width: 170px;
+}
+.footer
+{
+	display: flex;
+	justify-content: center;
+	background-color: #f5f5f5;
+	height: 70px;
+	padding: 30px;
+}
+.footer>img
+{
+ width: 30px;
+ height: 30px; 
+ margin: 0 60px;
+}
